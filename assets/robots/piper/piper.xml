@@ -21,7 +21,7 @@
   <worldbody>
     <body name="base_link">
       <inertial pos="-0.00473641 2.56829e-05 0.0414515" quat="0.70428 0.034288 0.0339756 0.708279" mass="1.02" diaginertia="0.00282612 0.00269117 0.000879394"/>
-      <geom type="mesh" mesh="base_link"/>
+      <geom type="mesh" mesh="base_link" contype="0" conaffinity="0"/>
       <body name="link1" pos="0 0 0.123">
         <inertial pos="0.00032 -0.00041 -0.00348" quat="0.737007 0.671914 -0.0484837 0.0547877" mass="0.71" diaginertia="0.0005012 0.00045752 0.00040836"/>
         <joint name="joint1" pos="0 0 0" axis="0 0 1" range="-2.61799 2.61799" actuatorfrcrange="-100 100"/>

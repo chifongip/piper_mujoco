@@ -118,7 +118,7 @@ class PiperRobot:
     a_des = (self.KP_ARM * q_error) + (self.KD_ARM * v_error)
 
     if self.is_autonomous:
-      if np.linalg.norm(q_error) < 0.02:
+      if np.linalg.norm(q_error) < 0.1:
         self.is_autonomous = False
     else:
       if np.linalg.norm(a_des) > self.DRAG_THRESHOLD:
