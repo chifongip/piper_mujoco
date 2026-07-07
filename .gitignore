@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+.claude/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+*.o
+*.dylib
+.DS_Store
